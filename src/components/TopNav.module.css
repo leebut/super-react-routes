@@ -1,0 +1,16 @@
+.navList {
+  margin-bottom: 1rem;
+}
+
+.listItem a {
+  padding: 0.3rem;
+  background: rgb(200, 200, 200);
+  color: rgb(0, 110, 236);
+  margin: 0.2rem;
+  border-radius: 0.3rem;
+}
+
+.listItem :global(.active) {
+  background: rgb(100, 100, 100);
+  color: white;
+}
