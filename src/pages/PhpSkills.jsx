@@ -1,7 +1,7 @@
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import TopNav from "../components/TopNav";
 
-function ReactSkills() {
+function PhpSkills() {
   const navigate = useNavigate();
 
   return (
@@ -10,10 +10,7 @@ function ReactSkills() {
         <TopNav />
       </header>
       <section>
-        <h1 className="text-2xl">⚛️ React Skills ⚛️</h1>
-
-        <NavLink to="react-projects">React projects</NavLink>
-
+        <h1 className="text-2xl">🐘 PHP Skills 🐘</h1>
         <button
           onClick={(e) => {
             e.preventDefault();
@@ -27,4 +24,4 @@ function ReactSkills() {
   );
 }
 
-export default ReactSkills;
+export default PhpSkills;

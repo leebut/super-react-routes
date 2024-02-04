@@ -9,7 +9,14 @@ function Skills() {
       </header>
       <section>
         <h1 className="text-2xl">This is the Skills page.</h1>
-        <Link to="/react-skills">React ⚛️</Link>
+        <ul className="list-none">
+          <li>
+            <Link to="/react-skills">React ⚛️</Link>
+          </li>
+          <li>
+            <Link to="/php">PHP 🐘</Link>
+          </li>
+        </ul>
       </section>
     </>
   );

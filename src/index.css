@@ -14,8 +14,16 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  margin: 1rem;
+  background: white;
 }
 
 h1 {
   margin-bottom: 1rem;
+}
+
+body {
+  background: rgb(220, 220, 220);
+  height: 96vh;
+  padding: 1rem;
 }

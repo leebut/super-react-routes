@@ -12,10 +12,10 @@ function TopNav() {
           <NavLink to="/skills">Skills Page</NavLink>
         </li>
         <li className={styles.listItem}>
-          <a href="#">Page 3</a>
+          <NavLink to="/about">About Me</NavLink>
         </li>
         <li className={styles.listItem}>
-          <a href="#">Page 4</a>
+          <NavLink to="/projects">Projects</NavLink>
         </li>
         <li className={styles.listItem}>
           <a href="#">Page 5</a>
